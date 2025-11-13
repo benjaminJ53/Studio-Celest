@@ -9,7 +9,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
-    <script type="module" src="index.js"></script>
   </head>
   <body>
   <header class="header">
@@ -28,78 +27,71 @@
     <div class="content-block">
       <div class="content-block__content">
         <div class="hero">
-          <h2 class="hero__title">Authentic Fashion<br />The Best of Celest</h2>
-          <p class="hero__subtitle">Fashion we know you will Love!</p>
-          <img
-            class="hero__image"
-            src="images/red-shoe.avif"
-            alt="Red Nike Shoe"
-          />
+          <h2 class="hero__title">The Best of Celest<br />Fashion we know you will Love!</h2>
+          <p class="hero__subtitle">We partnered with the worlds top brands, 
+          so we could bring you exclusive products and deals.</p>
+          <img class="hero__image"
+            src="images/Banner.jpg"
+            alt="Banner Image"/>
         </div>
       </div>
     </div>
 
     <div class="content-block content-block--alt">
       <div class="content-block__content">
-        <div class="animals">
+        <div class="Products">
           <div class="tabs tabs--right">
             <nav class="tabs__buttons">
-              <button
-                data-tab="cats"
-                class="tabs__button tabs__button--selected"
-              >
-                <p class="tabs__button-title">Cats</p>
-                <p class="tabs__button-text">We deliver cats</p>
+              <button data-tab="Shoes"
+                class="tabs__button tabs__button--selected">
+                <p class="tabs__button-title">Shoes</p>
+                <p class="tabs__button-text">Popular Brands, High Qaulity.</p>
               </button>
-              <button data-tab="cows" class="tabs__button">
-                <p class="tabs__button-title">Cows</p>
-                <p class="tabs__button-text">We sell cows too</p>
+              <button data-tab="Watches" class="tabs__button">
+                <p class="tabs__button-title">Watches</p>
+                <p class="tabs__button-text">From Rolex to Casio, its all right here.</p>
               </button>
-              <button data-tab="horses" class="tabs__button">
-                <p class="tabs__button-title">Horses</p>
-                <p class="tabs__button-text">Who wouldn't want a horse?</p>
+              <button data-tab="Shirts" class="tabs__button">
+                <p class="tabs__button-title">Shirts</p>
+                <p class="tabs__button-text">Check out our range of threads.</p>
               </button>
-              <button data-tab="dogs" class="tabs__button">
-                <p class="tabs__button-title">Dogs</p>
-                <p class="tabs__button-text">
-                  Outside of a dog, a book is a person's best friend. Inside of
-                  a dog it's too dark to read
-                </p>
+              <button data-tab="Caps" class="tabs__button">
+                <p class="tabs__button-title">Caps</p>
+                <p class="tabs__button-text">Baseball, Beanie, High profile, the choice is yours.</p>
               </button>
             </nav>
 
             <article class="tabs__contents">
               <div
-                data-tab-content="cats"
+                data-tab-content="Shoes"
                 class="tabs__content tabs__content--selected"
               >
                 <div class="tabs__image">
-                  <img src="images/cat.png" alt="Cat" />
+                  <img src="images/red-shoe.avif" alt="Shoe" />
                 </div>
               </div>
 
-              <div data-tab-content="cows" class="tabs__content">
+              <div data-tab-content="Watches" class="tabs__content">
                 <div class="tabs__image">
-                  <img src="images/cow-2.png" alt="Cow" />
+                  <img src="images/Watch.avif" alt="Watch" />
                 </div>
               </div>
 
-              <div data-tab-content="horses" class="tabs__content">
+              <div data-tab-content="Shirts" class="tabs__content">
                 <div class="tabs__image">
-                  <img src="images/horse.png" alt="Horse" />
+                  <img src="images/shirt.avif" alt="Shirt" />
                 </div>
               </div>
 
-              <div data-tab-content="dogs" class="tabs__content">
+              <div data-tab-content="Caps" class="tabs__content">
                 <div class="tabs__image">
-                  <img src="images/dog.png" alt="Dog" />
+                  <img src="images/caps.avif" alt="Cap" />
                 </div>
               </div>
-            </article>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     <div class="content-block">
       <div class="content-block__content">
@@ -237,4 +229,5 @@
       </nav>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
