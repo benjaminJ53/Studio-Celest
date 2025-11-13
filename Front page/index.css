@@ -128,32 +128,6 @@ img {
   max-width: 800px;
 }
 
-/* ==========================================================================
-   DELIVERY (LOGOS STRIP)
-   ========================================================================== */
-/* Delivery Section */
-.delivery {
-}
-
-.delivery__title {
-  font-size: var(--font-size-body);
-  text-transform: uppercase;
-  color: var(--colour-text-body);
-  margin-bottom: var(--spacing-l);
-}
-
-.delivery__logos {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-@media (min-width: 800px) {
-  .delivery__logos {
-    flex-direction: row;
-  }
-}
 
 /* ==========================================================================
    TABS (VARIANTS + BUTTONS + CONTENT)
@@ -407,6 +381,28 @@ img {
 
 .stats__title {
   font-size: var(--font-size-heading-m);
+}
+
+/* Social Media */
+
+.social__logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social__logos img {
+  width: 68px;
+  height: auto;
+}
+
+
+@media (min-width: 800px) {
+  .delivery__logos {
+    flex-direction: row;
+  }
 }
 
 /* ==========================================================================
