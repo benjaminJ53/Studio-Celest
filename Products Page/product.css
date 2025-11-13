@@ -157,7 +157,7 @@ a {
   background-color: #0056b3;
 }
 
-/* ===== Basket Section ===== 
+/* ===== Basket Section ===== */
 .basket-page {
   max-width: 800px;
   margin: 2rem auto;
@@ -198,8 +198,8 @@ a {
 
 .btn-pay:hover {
   background-color: #218838;
-}*/
-/* ===== Contact Form ===== 
+}
+/* ===== Contact Form ===== */
 .contact-form {
   max-width: 600px;
   margin: 0 auto 40px;
@@ -232,7 +232,7 @@ a {
   outline: none;
   border-color: #0077cc;
   box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
-}*/
+}
 
 /* ===== Footer ===== */
 footer {

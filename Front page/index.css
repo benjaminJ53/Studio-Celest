@@ -289,6 +289,49 @@ img {
 }
 
 /* ==========================================================================
+   CTA (CALLOUT)
+   ========================================================================== */
+/* CTA Section */
+
+@media (min-width: 800px) {
+  .coupon {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.coupon__content {
+  flex: 1;
+  text-align: left;
+  padding: var(--spacing-s);
+}
+
+.coupon__title {
+  font-size: var(--font-size-heading-m);
+  margin-bottom: var(--spacing-s);
+  color: var(--colour-text-heading);
+}
+
+.coupon__subtitle {
+  font-size: var(--font-size-body);
+  margin-bottom: var(--spacing-m);
+  color: var(--colour-text-body);
+}
+
+.coupon__button {
+  padding: var(--spacing-s) var(--spacing-m);
+  font-size: var(--font-size-body);
+  color: #fff;
+  background-color: var(--colour-primary);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.coupon__button:hover {
+  background-color: #675bcb; /* hover tint; could be another variable */
+}
+/* ==========================================================================
    TESTIMONIALS
    ========================================================================== */
 /* Testimonial Section */
@@ -312,50 +355,6 @@ img {
   padding: var(--spacing-s);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-}
-
-/* ==========================================================================
-   CTA (CALLOUT)
-   ========================================================================== */
-/* CTA Section */
-
-@media (min-width: 800px) {
-  .cta {
-    display: flex;
-    align-items: center;
-  }
-}
-
-.cta__content {
-  flex: 1;
-  text-align: left;
-  padding: var(--spacing-s);
-}
-
-.cta__title {
-  font-size: var(--font-size-heading-m);
-  margin-bottom: var(--spacing-s);
-  color: var(--colour-text-heading);
-}
-
-.cta__subtitle {
-  font-size: var(--font-size-body);
-  margin-bottom: var(--spacing-m);
-  color: var(--colour-text-body);
-}
-
-.cta__button {
-  padding: var(--spacing-s) var(--spacing-m);
-  font-size: var(--font-size-body);
-  color: #fff;
-  background-color: var(--colour-primary);
-  border: none;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-}
-
-.cta__button:hover {
-  background-color: #675bcb; /* hover tint; could be another variable */
 }
 
 /* ==========================================================================
