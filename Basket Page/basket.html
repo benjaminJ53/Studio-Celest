@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+  <a href="index.html" class="logo">
+      <img src="images/Logo-Studio-Celes.png" alt="Studio-Celest" class="logo-img">
+  </a>
+
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="basket.html">Basket (<span id="basket-count">0</span>)</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Page Heading -->
+  <section class="page">
+    <h1>Your Shopping Basket</h1>
+    <a href="product.html" class="banner-btn" style="margin-top: 10px; display: inline-block;">Continue Shopping</a>
+  </section>
+
+  <!-- Basket Items -->
+  <section class="basket-page">
+    <div class="basket-container" id="basket-container">
+      <!-- JS will render basket items here -->
+    </div>
+
+    <!-- Basket Summary -->
+    <div class="basket-summary">
+      <h3>Total: <span id="basket-total">£0.00</span></h3>
+      <button class="btn-pay" id="pay-now">Pay Now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  <p>&copy; 2025 Studio-Celest. All rights reserved.</p>
+</footer>
+
+  <script src="product.js"></script>
+</body>
+</html>
